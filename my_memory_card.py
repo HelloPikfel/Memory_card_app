@@ -39,6 +39,9 @@ question_list.append(
 question_list.append(
     Question("Best country?", "Finland", 'Poland', 'USA', "Kazakhstan")
 )
+question_list.append(
+    Question("Best fruit?", "mango", "apple", "banana", "mandarin")
+)
 # Створюємо головний застосунок (обов’яз# ково для PyQt5)
 app = QApplication([])
 
